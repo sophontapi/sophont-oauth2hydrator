@@ -1,0 +1,35 @@
+{
+  "name": "apzuk/sophont-oauth2hydrator",
+  "description": "OAuth2 for social networks",
+  "type": "library",
+  "keywords": [
+    "zf2",
+    "php"
+  ],
+  "homepage": "https://github.com/apzuk/sophont-oauth2hydrator",
+  "authors": [
+    {
+      "name": "Aram Petrosyan",
+      "email": "aram.petrosyan.88@gmail.com"
+    }
+  ],
+  "license": [
+    "MIT"
+  ],
+  "config": {
+    "vendor-dir": "vendor",
+    "process-timeout": 3000
+  },
+  "require": {
+    "php": "~7.0 || ~5.6",
+    "zendframework/zendframework": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sophont\\OAuth2hydrator\\": "src/"
+    },
+    "classmap": [
+      "./Module.php"
+    ]
+  }
+}
